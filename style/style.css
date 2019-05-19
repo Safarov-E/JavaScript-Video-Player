@@ -1,0 +1,21 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ .container {
+ 	margin: 40px auto;
+ 	max-width:  1000px;
+ 	text-align: center;
+ 	line-height: 150%;
+ }
+ h2 {
+ 	margin: 30px auto;
+ }
+.styler {
+	display: flex; 
+	width: 450px;
+	margin: 0 auto;
+}
+.styler div { 
+	margin-right: 10px;
+}

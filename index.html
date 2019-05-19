@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>JavaScript Video Player</h1>
+		<video width="500px" height="400px" poster="" id="video-player">
+			<source src="video/music.mp4" type="video/mp4">
+		</video>
+
+		<div>
+			<progress id="progress" value="0" max="100" style="width: 80%; margin: 0 auto;"></progress>
+		</div> 
+
+		<div class="styler">
+			<div><button id="play">Play</button></div>
+			<div><button id="pause">Pause</button></div>
+			<div><button id="stop">Stop</button></div>
+			<div><button id="speed-up">Быстрее</button></div>
+			<div><button id="speed-down">Медленее</button></div>
+			<div><button id="speed-normal">Нормал</button></div>
+			<div><input type="range" id="volume" min="0" max="100">Звук</div>
+		</div>
+	</div>
+	<script src="js/js.js"></script>
+</body>
+</html>
